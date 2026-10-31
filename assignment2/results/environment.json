@@ -1,0 +1,25 @@
+{
+  "measured_at_utc": "2026-10-31T17:48:55.592676+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "implementation": "CPython",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+  "machine": "x86_64",
+  "logical_cpus_visible": 9,
+  "sizes": [
+    256,
+    512,
+    1024,
+    2048,
+    4096
+  ],
+  "timing_trials": 7,
+  "memory_trials": 3,
+  "seed": 532,
+  "input_generation": "distinct integers 0..n-1; Random(seed + n).shuffle",
+  "timer": "perf_counter_ns; fresh copies and checks excluded; GC disabled",
+  "memory": "median peak tracemalloc bytes; input excluded; separate runs; not RSS",
+  "source_sha256": {
+    "sorting.py": "670d172bc07235a462c9acca75063af2ec3167606b319544c5c8fa3fcc08d5af",
+    "benchmark.py": "a0583f083bceb63976fbd7358b1fe222704f83e272ab2c086014a7d825fe9e99"
+  }
+}
